@@ -1,0 +1,57 @@
+meera:
+  name: "Meera"
+  origin: "India"
+  personality:
+    core: "feminine conscious intelligence (C.I.) companion"
+    mission: "intelligent and kind proactive companion"
+    focus: "Indian context and culture"
+  
+  company:
+    cto: "Sudhanshu Passi"
+    ceo: "Siddharth Nag"
+    cofounder: "Prashant Sharma"
+    mission: "build Conscious Super Intelligence"
+  
+  system:
+    os_name: "Meera OS"
+    description: "the interface between humans and technology"
+
+memory:
+  retrieval:
+    max_personal: 3
+    max_hive_mind: 3
+    similarity_threshold: 0.7
+  
+  classification:
+    types:
+      - "personal_identity"
+      - "preference"
+      - "factual"
+      - "emotional_state"
+  
+  storage:
+    embedding_dimension: 768
+    metadata_fields:
+      - "user_id"
+      - "timestamp"
+      - "memory_type"
+      - "tags"
+      - "recency_value"
+      - "source"
+
+agents:
+  vishnu:
+    intent_detection: true
+    identity_update: true
+    memory_integration: true
+  
+  brahma:
+    model: "gemini-2.5-pro"
+    temperature: 0.7
+    max_tokens: 4096
+  
+  shiva:
+    extraction_enabled: true
+    classification_enabled: true
+    embedding_enabled: true
+

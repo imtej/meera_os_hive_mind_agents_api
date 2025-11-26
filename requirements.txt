@@ -1,0 +1,25 @@
+# Core Dependencies
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-google-genai>=2.0.0
+pymongo>=4.6.0
+chromadb>=0.4.22
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+pyyaml>=6.0.1
+
+# Utilities
+numpy>=1.24.0
+tiktoken>=0.5.2
+
+# Logging and Monitoring
+structlog>=24.1.0
+
+# API Server (optional)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
