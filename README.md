@@ -26,6 +26,11 @@ The system consists of three core agents working in harmony:
 - Creates and stores memory nodes
 - Generates embeddings for semantic search
 
+
+#### A condensed, implementation-ready blueprint
+![A condensed, implementation-ready blueprint](image.png)
+
+
 ## System Flow
 
 ```
